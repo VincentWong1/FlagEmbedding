@@ -205,7 +205,7 @@ You should prepare two files with jsonl format:
 {"content": "Panda is ..."}
 {"content": "... is A"}
 ```
-- The other is query_data, which contains the queries and the ground truth. A toy example: [toy_corpus.json](./toy_evaluation_data/toy_query.json)
+- The other is query_data, which contains the queries and the ground truth. A toy example: [toy_query.json](./toy_evaluation_data/toy_query.json)
 ```
 {"query": "What is A?", "positive": ["A is ...", "... is A"]}
 {"query": "What is B?", "positive": ["B is ..."]}
